@@ -1,6 +1,6 @@
 const audioElement = document.getElementById("audio");
 const button = document.getElementById("button");
-const apiKey = window.MY_API_KEY;
+
 
 // VoiceRSS Javascript SDK
 const VoiceRSS = {
