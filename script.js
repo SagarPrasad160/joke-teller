@@ -1,5 +1,6 @@
 const audioElement = document.getElementById("audio");
 const button = document.getElementById("button");
+const apiKey = window.MY_API_KEY;
 
 // VoiceRSS Javascript SDK
 const VoiceRSS = {
@@ -107,7 +108,7 @@ const VoiceRSS = {
 
 const voiceOverJoke = (joke) => {
   VoiceRSS.speech({
-    key: "dcd5815f30554e2e86f78ad4bf7cb9c5",
+    key: apiKey,
     src: joke,
     hl: "en-us",
     v: "Linda",
