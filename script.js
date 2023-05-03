@@ -107,7 +107,7 @@ const VoiceRSS = {
 
 const voiceOverJoke = (joke) => {
   VoiceRSS.speech({
-    key: apiKey,
+    key: "dcd5815f30554e2e86f78ad4bf7cb9c5",
     src: joke,
     hl: "en-us",
     v: "Linda",
@@ -144,5 +144,3 @@ const toggleButton = () => {
 
 button.addEventListener("click", getJoke);
 audioElement.addEventListener("ended", toggleButton);
-
-console.log(window.apiKey);
